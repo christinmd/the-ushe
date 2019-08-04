@@ -2,16 +2,17 @@ h1{
   font-family: 'Roboto Mono', monospace;
   font-size: 500%; 
 }
-.rotate{
-
-  transform: matrix(1, 0, 0, -1, 0, 0);
+div{
+  text-align: center;
 }
 
-.center-box{
-  margin: 0 auto;
-  font-family: 'Roboto Mono', monospace;
-  text-align: center;
-  font-size: 100%; 
+.btn{
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.rotate{
+  transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
 /* Body Animations */

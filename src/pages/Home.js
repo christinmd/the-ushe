@@ -6,9 +6,11 @@ class Home extends Component {
   }
   render() {
     return (
-      <div className="center-box">
+      <div>
       <h1 className="rotate">The Ushe</h1>
       <h1>The Ushe</h1>
+      <button type="button" class="btn btn-outline-primary">Login</button>
+      <button type="button" class="btn btn-outline-primary">Register</button>
       </div>
     );
   }
