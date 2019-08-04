@@ -1,4 +1,4 @@
-# The Ushe
+# The Ushe \[t͟hə ˈyüzh]
 
 The one-stop app for all your meal trains, office coffee runs, and "can I get you something on the way?" requests, and getting them all right, every time.
 
