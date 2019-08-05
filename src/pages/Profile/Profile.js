@@ -1,8 +1,9 @@
-import React from "react";
+import React, { Component} from "react";
 import "./Profile.css";
 
-function Profile () {
-    return (
+class Profile extends Component {
+    render() {
+    return(
         <div className="profile">
         <h1>Profile</h1>
         <p></p>
@@ -14,6 +15,7 @@ function Profile () {
         <p>Favorite Location</p>
         </div>
         );
+    }
 }
 
 export default Profile;
