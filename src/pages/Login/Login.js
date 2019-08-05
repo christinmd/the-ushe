@@ -3,10 +3,7 @@ import "./login.css"
 
 class Login extends Component {
   componentDidMount() {
-    document.body.classList.add("background");
-  }
-  componentWillUnmount(){
-    document.body.classList.remove("background")
+    document.body.classList.add("background-login");
   }
   render() {
     return (
@@ -14,7 +11,7 @@ class Login extends Component {
       <div className="align-items-center">
           <h1><span className="fa fa-sign-in"></span> Login</h1>
 
-          <form action="/login" method="post">
+          <form>
               <div className="form-group">
 
                   <input type="email" className="form-control" placeholder="Email" name="email"/>

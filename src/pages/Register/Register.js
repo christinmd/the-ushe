@@ -1,8 +1,11 @@
 import React, { Component } from "react";
+import "./register.css"
+
 class Register extends Component {
   componentDidMount() {
-    document.body.classList.add("background");
+    document.body.classList.add("background-register");
   }
+
   render() {
     return (
       <div class="container">
@@ -12,7 +15,7 @@ class Register extends Component {
           <h1><span class="fa fa-sign-in"></span> Register</h1>
   
   
-          <form action="/register" method="post">
+          <form>
               <div class="form-group">
                   <input type="text" class="form-control" placeholder="Email" name="email" id="email"/>
               </div>

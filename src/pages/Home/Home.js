@@ -4,9 +4,6 @@ class Home extends Component {
   componentDidMount() {
     document.body.classList.add("background");
   }
-  componentWillUnmount(){
-    document.body.classList.remove("background")
-  }
   render() {
     return (
       <div>
