@@ -1,9 +1,12 @@
 import React, { Component } from "react";
-import "./assets/css/login.css"
+import "./login.css"
 
 class Login extends Component {
   componentDidMount() {
     document.body.classList.add("background");
+  }
+  componentWillUnmount(){
+    document.body.classList.remove("background")
   }
   render() {
     return (
