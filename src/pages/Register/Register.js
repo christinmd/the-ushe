@@ -23,19 +23,19 @@ class Register extends Component {
                   <input type="password" class="form-control" placeholder="Password" name="password" id="password"/>
               </div>
               <div class="form-group">
-                  <input type="text" class="form-control" placeholder="First Name" name="firstName" id="firstName"/>
-              </div>
-              <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Last Name" name="lastName" id="lastName"/>
+                  <input type="text" class="form-control" placeholder="Username" name="username" id="username"/>
               </div>
               <div class="form-group">
                   <input type="text" class="form-control" placeholder="City" name="city" id="city"/>
               </div>
               <div class="form-group">
-                  <input type="text" class="form-control" placeholder="State - Say none, if you are not located in US." name="state" id="state"/>
+                  <input type="text" class="form-control" placeholder="State" name="state" id="state"/>
               </div>
               <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Country" name="country" id="country"/>
+                  <input type="text" class="form-control" placeholder="Allergies" name="allergies" id="allergies"/>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Bio" name="bio" id="bio"/>
               </div>
   
               <button type="submit" class="btn btn-warning btn-lg">Create Account</button>
