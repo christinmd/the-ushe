@@ -12,8 +12,10 @@ With The Ushe, you don't have to be a regular to get the usual.
 
 ### Dependencies
  - graphql
+ - docker
+ - prisma
  - apollo
-
+npm 
 ### VSC Extensions
  - Bracket Pair Colorizer
  - ES7 React/Redux/GraphQL/React-Native snippets
