@@ -1,16 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-<<<<<<< HEAD
-import Home from "./components/pages/Home/Home";
-import Login from './components/pages/Login/Login';
-import Register from './components/pages/Register/Register';
-import Profile from './components/pages/Profile/Profile';
-
-=======
 import Home from "./pages/Home/Home";
 import Login from './pages/Login/Login';
 import Register from './pages/Register/Register';
->>>>>>> development
+import Profile from './pages/Profile/Profile';
+
 function App() {
   return (
   <Router>
