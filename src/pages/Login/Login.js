@@ -46,7 +46,11 @@ class Login extends Component {
               />
             </div>
 
-            <button type="submit" className="btn btn-warning btn-lg" onClick={this.handleFormSubmit}>
+            <button
+              type="submit"
+              className="btn btn-warning btn-lg"
+              onClick={this.handleFormSubmit}
+            >
               login
             </button>
           </form>

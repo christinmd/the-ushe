@@ -1,3 +1,4 @@
+/* CSS */
 .background-login {
   background: linear-gradient(
     270deg,
@@ -16,7 +17,16 @@
   animation: AnimationName 30s ease infinite;
 }
 
-
+input {
+  font-family: Helvetica;
+}
+a {
+  font-family: Helvetica;
+}
+button {
+  font-family: Helvetica;
+}
+/* functions for background */
 @-webkit-keyframes AnimationName {
   0% {
     background-position: 0% 50%;
