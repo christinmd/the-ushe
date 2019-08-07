@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Card from "../../components/cards/cards"
+import Card from "../../components/ordercards/ordercards"
 import "./home.css";
 class Home extends Component {
   componentDidMount() {
