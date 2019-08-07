@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./navbar.css";
 
-class navbar extends Component {
+class Navbar extends Component {
     state = {
       open: false,
       width: window.innerWidth
@@ -74,4 +74,4 @@ class navbar extends Component {
     }
   }
 
-export default navbar;
+export default Navbar;
