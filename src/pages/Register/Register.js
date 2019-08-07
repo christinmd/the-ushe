@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./register.css";
+import "./Register.css";
 
 class Register extends Component {
   state = {
