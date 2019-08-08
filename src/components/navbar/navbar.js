@@ -33,7 +33,7 @@ class Navbar extends Component {
     render() {
       return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light mb-2">
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand" to="/Profile">
             Profile
           </Link>
           <button
@@ -50,21 +50,24 @@ class Navbar extends Component {
           <div className={`${this.state.open ? "" : "collapse "}navbar-collapse`} id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link
-                  onClick={this.toggleNav}
-                  className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}
-                  to="/"
-                >
-                  Search
+                <Link>
+                  <div class="search-container">
+                    <form action="/action_page.php">
+                      <input type="text" placeholder="Search..." name="search"></input>
+                      <button onClick="location.href = '/saved';" id ="submitButton">Submit</button>                    
+                      </form>
+                    </div>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
                   onClick={this.toggleNav}
-                  className={window.location.pathname === "/saved" ? "nav-link active" : "nav-link"}
-                  to="/saved"
+                  className={window.location.pathname === "/everything" ? "nav-link active" : "nav-link"}
+                  to="/everything"
                 >
+                  <div class="everything">
                   Everything
+                  </div>
                 </Link>
               </li>
             </ul>
@@ -73,5 +76,6 @@ class Navbar extends Component {
       );
     }
   }
+ 
 
 export default Navbar;
