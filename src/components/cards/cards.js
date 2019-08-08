@@ -4,7 +4,7 @@ import "./cards.css";
 function FriendCard(props) {
     return (
 
-    <div className="card-container">
+    <div className="card-container ordercard">
                    
                        
      <h3 className="name"><i class="random name"> </i>John Smith</h3>
