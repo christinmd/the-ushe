@@ -1,5 +1,5 @@
 import React, { Component} from "react";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 import "./Profile.css";
 import OrderCard from "../../components/ordercards/ordercards";
 import FriendCard from "../../components/cards/cards"

@@ -18,10 +18,10 @@ function OrderCard(props) {
       </ul>
       <div className="card-body">
       </div>
-           
-    </div>
+      </div>
 
+  
             );
     }
 
-    export default OrderCard;
+  export default OrderCard;
