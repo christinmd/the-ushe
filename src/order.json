@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "name": "Regina George",
+      "location": "Starbucks",
+      "order": "White Chocolate Mocha"
+    },
+    {
+        "id": 2,
+        "name": "SpongeBob",
+        "location": "Krusty Krab",
+        "order": "Krabby Patties"
+    },
+    {
+        "id": 3,
+        "name": "Plankton",
+        "location": "Chum Bucket",
+        "order": "Chum Sticks"
+    },
+    {
+        "id": 4,
+        "name": "Patrick",
+        "location": "Weenie Hut Junior",
+        "order": "Burgers and Shack"
+    },
+    {
+        "id": 5,
+        "name": "Sandy",
+        "location": "Chick-Fil-A",
+        "order": "Chicken Sandwich"
+    },
+    {
+        "id": 6,
+        "name": "Pearl",
+        "location": "McDonalds",
+        "order": "McNuggets"
+    }
+   
+  ]
