@@ -1,8 +1,15 @@
 h1{
-  font-family: 'Roboto Mono', monospace;
+  
   font-size: 500%; 
 }
+a{
+  font-family: Helvetica;
+}
+button{
+  font-family: Helvetica;
+}
 div{
+  font-family: Helvetica;
   text-align: center;
 }
 

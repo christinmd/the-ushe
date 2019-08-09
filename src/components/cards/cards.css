@@ -1,54 +1,28 @@
 
-.user-pad {
-    padding: 10px 25px;
+.ordercard {
+    padding-bottom: 5px;
+    padding-top: 3px;
+    background: #FEAC5E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
 }
-
-.no-pad {
-    padding-right: 0;
-    padding-left: 0;
-    padding-bottom: 0;
-}
-
-.user-details {
-    background: #eee;
-    min-height: 333px;
-}
-
-.subtitles{
-    font-weight: bold;
-    letter-spacing: 4px;
-    font-size: 14px;
-    text-transform: uppercase;
-  }
-  
 
 .name{
     letter-spacing: 1px;
+    text-align: center;
     padding-bottom: 0px;
     font-family: Helvetica;
+    font-size: 20px;
+    text-transform: uppercase;
 }
 
 .location{
     font-family: Helvetica;
+    font-size: 15px;
 }
 
-.bio{
-    font-family: Helvetica;
-}
 
-.bioheader{
-    font-family: Helvetica;
-}
-.row-overview h3 {
-    font-weight: 0px;
-    margin-top: 15px;
-    margin: 10px 0 0 0;
-}
 
-.row-overview h4 {
-    font-weight:0px;
-    margin-top: 0;
-}
 
 .view {
     position:relative;

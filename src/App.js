@@ -6,6 +6,8 @@ import Register from './pages/Register/Register';
 import Profile from './pages/Profile/Profile';
 import cards from './components/cards/cards';
 import navbar from './components/navbar/navbar';
+import Feed from './pages/Feed/feed';
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
     <Route exact path="/Profile" component={Profile}/>
     <Route exact path="/cards" component={cards}/>
     <Route exact path="/navbar" component={navbar}/>
+    <Route exact path="/Feed" component={Feed}/>
     </Switch>
   </Router>
   );
