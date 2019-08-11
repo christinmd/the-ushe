@@ -3,6 +3,7 @@ import "./Profile.css";
 import Modal from "../../components/modal/modal"
 import FriendCard from "../../components/cards/cards"
 import OrderCard from "../../components/ordercards/ordercards"
+import Navbar from "../../components/navbar/navbar"
 
 
 class Profile extends Component {
@@ -30,6 +31,7 @@ class Profile extends Component {
 
             
             <div>
+            <Navbar/>
             <h1> THE USHE</h1>
             <h2> PROFILE </h2>
             <div className="profile-section">
