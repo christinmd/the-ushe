@@ -4,7 +4,7 @@ import "./ordercards.css";
 function OrderCard(props) {
     return (
 
-    <div className="container">
+    <div className="container order-container">
     <h3 className="order-name"><i class="random name"> </i> John Smith</h3>
 
         <div className="card-body">
