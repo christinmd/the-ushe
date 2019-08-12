@@ -18,6 +18,7 @@ class Feed extends Component {
                 <NavBar/>
                 <Title>THE USHER</Title>
                 {this.state.Orders.map(orders => (
+                    <>
                     <GlobalOrder
                         id={orders.id}
                         key={orders.id}
@@ -25,6 +26,8 @@ class Feed extends Component {
                         order={orders.order}
                         location={orders.location}
                     />
+                    <br/>
+                    </>
                 ))}
             </div>
         );

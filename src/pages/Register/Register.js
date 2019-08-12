@@ -1,3 +1,5 @@
+
+
 import React, { Component } from "react";
 import "./Register.css";
 
@@ -33,7 +35,7 @@ class Register extends Component {
             <div className="form-group">
               <input
                 type="text"
-                className="form-control"
+                className="form-control textbox"
                 placeholder="Email"
                 name="email"
                 id="email"
@@ -44,7 +46,7 @@ class Register extends Component {
             <div className="form-group">
               <input
                 type="password"
-                className="form-control"
+                className="form-control textbox"
                 placeholder="Password"
                 name="password"
                 id="password"
@@ -55,7 +57,7 @@ class Register extends Component {
             <div className="form-group">
               <input
                 type="text"
-                className="form-control"
+                className="form-control textbox"
                 placeholder="Username"
                 name="username"
                 id="username"
@@ -66,7 +68,7 @@ class Register extends Component {
             <div className="form-group">
               <input
                 type="text"
-                className="form-control"
+                className="form-control textbox"
                 placeholder="City"
                 name="city"
                 id="city"
@@ -74,10 +76,10 @@ class Register extends Component {
                 onChange={e => this.setState({ city: e.target.value })}
               />
             </div>
-            <div className="form-group">
+            <div className="form-group ">
               <input
                 type="text"
-                className="form-control"
+                className="form-control textbox"
                 placeholder="State"
                 name="state"
                 id="state"
@@ -88,7 +90,7 @@ class Register extends Component {
             <div className="form-group">
               <input
                 type="text"
-                className="form-control"
+                className="form-control textbox"
                 placeholder="Allergies"
                 name="allergies"
                 id="allergies"
@@ -96,10 +98,10 @@ class Register extends Component {
                 onChange={e => this.setState({ allergies: e.target.value })}
               />
             </div>
-            <div className="form-group">
+            <div className="form-group textbox">
               <input
-                type="text"
-                className="form-control"
+                type="textarea"
+                className="form-control textbox"
                 placeholder="Bio"
                 name="bio"
                 id="bio"
