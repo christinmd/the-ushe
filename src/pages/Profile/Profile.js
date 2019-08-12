@@ -3,7 +3,7 @@ import "./Profile.css";
 import Modal from "../../components/modal/modal"
 import FriendCard from "../../components/cards/cards"
 import OrderCard from "../../components/ordercards/ordercards"
-
+import Navbar from "../../components/navbar/navbar"
 
 class Profile extends Component {
     constructor() {
@@ -32,11 +32,18 @@ class Profile extends Component {
             <div>
             <h1> THE USHE</h1>
             <h2> PROFILE </h2>
+
+            <div className="profile">
+            <Navbar/>
+            </div>
             <div className="profile-section">
             <p> USER INFO </p>
             <div class="friends-container">
             <FriendCard/>
             </div>
+            { this.state.isShowing ? <div onClick={this.closeModalHandler} className="back-drop"></div> : null }
+
+            <button className="modal-btn" onClick={this.openModalHandler}>Edit Profile </button>
             <p> FAVORITES <i class="fas fa-heart"></i></p>
 
             <div class="cards-container">

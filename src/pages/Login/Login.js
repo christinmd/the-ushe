@@ -18,17 +18,21 @@ class Login extends Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container login-container">
         <div className="align-items-center">
-          <h1>
+          <h1> THE USHE</h1>
+            
+          <h2>
             <span className="fa fa-sign-in" /> Login
-          </h1>
+          </h2>
+
+	
 
           <form>
             <div className="form-group">
               <input
                 type="email"
-                className="form-control"
+                className="form-control textbox"
                 placeholder="Email"
                 name="email"
                 value={this.state.email}
@@ -38,7 +42,7 @@ class Login extends Component {
             <div className="form-group">
               <input
                 type="password"
-                className="form-control"
+                className="form-control textbox"
                 placeholder="Password"
                 name="password"
                 value={this.state.password}
@@ -51,18 +55,16 @@ class Login extends Component {
               className="btn btn-warning btn-lg"
               onClick={this.handleFormSubmit}
             >
-              login
+              LOGIN
             </button>
           </form>
 
           <hr />
 
-          <p>
-            <a href="/register">Don't have an account? Sign up.</a>
-          </p>
-          <p>
-            <a href="/">Go back to home page.</a>
-          </p>
+         
+            <a className= "sign-up no-account" href="/register">DON'T HAVE AN ACCOUNT? SIGN UP.</a>
+        
+         
         </div>
       </div>
     );
