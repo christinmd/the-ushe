@@ -7,7 +7,7 @@ import Profile from './pages/Profile/Profile';
 import cards from './components/cards/cards';
 import navbar from './components/navbar/navbar';
 import Feed from './pages/Feed/feed';
-import Search from './components/Search/Search';
+import Search from './pages/Search/search'
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
     <Route exact path="/cards" component={cards}/>
     <Route exact path="/navbar" component={navbar}/>
     <Route exact path="/Feed" component={Feed}/>
-    <Route exact path="/Search" component={Search}/>
+    <Route exact path="/search" component={Search}/>
     </Switch>
   </Router>
   );
