@@ -31,6 +31,7 @@ class Profile extends Component {
 
             
             <div>
+            <Navbar/>
             <h1> THE USHE</h1>
             <h2> PROFILE </h2>
 
