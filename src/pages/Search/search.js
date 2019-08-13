@@ -1,11 +1,11 @@
 import React, { Component} from "react";
-import Navbar from "../../components/navbar/navbar"
+import Search from "../../components/search/search"
 
 class search extends Component {
 
     render() {
         return (
-            <Navbar/>
+            <Search/>
         );
 
     }
