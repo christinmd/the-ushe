@@ -5,6 +5,7 @@ import FriendCard from "../../components/cards/cards"
 import OrderCard from "../../components/ordercards/ordercards"
 import Navbar from "../../components/navbar/navbar"
 
+
 class Profile extends Component {
     constructor() {
         super();
