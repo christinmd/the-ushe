@@ -6,7 +6,7 @@ function Feed(props) {
   return (
   <>
   
-  <div className="container">
+  <div className="globalorder container">
   <font size="25" className="card-title"><i class="random name"> </i> {props.name} <small> Ordered Their Ushe </small><font size="5"><i class="fas fa-utensils fa-xs"></i> {props.order}</font></font>
 
       <div className="card-body">
