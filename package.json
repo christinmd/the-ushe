@@ -2,7 +2,7 @@
   "name": "the-ushe",
   "version": "1.0.0",
   "description": "The one-stop app for all your meal trains, office coffee runs, and \"can I get you something on the way?\" requests, and getting them all right, every time.",
-  "main": "./client/src/index.js",
+  "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
