@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 import "./login.css";
 
-class Register extends Component {
+class Login extends Component {
   state = {
     email: "",
     password: "",
@@ -56,4 +56,4 @@ class Register extends Component {
   }
 }
 
-export default Register;
+export default Login;
