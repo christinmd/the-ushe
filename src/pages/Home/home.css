@@ -1,7 +1,20 @@
 h1{
   
   font-size: 500%; 
+  text-transform: uppercase; 
+  padding-top: 200px; 
 }
+
+.header-home {
+  padding-bottom: 0px; 
+}
+.header-second {
+  padding-top: 0px; 
+  font-size: 13px; 
+  font-weight: lighter; 
+}
+
+
 a{
   font-family: Helvetica;
 }
